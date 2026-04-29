@@ -1,0 +1,114 @@
+{
+  "version": "mvp-v16-text-polish",
+  "purpose": "Track placeholder-to-final production asset replacement before public release.",
+  "statusLegend": {
+    "placeholder": "Included placeholder asset, safe for prototype only.",
+    "draft": "Generated or drawn draft asset, needs review.",
+    "final": "Approved production asset."
+  },
+  "priorityLegend": {
+    "P0": "Required before visual review or public demo.",
+    "P1": "Required before polished demo.",
+    "P2": "Nice-to-have improvement."
+  },
+  "assets": [
+    {
+      "path": "assets/images/scenes/start/bg_start_shell_scene.jpg",
+      "type": "scene_background",
+      "status": "placeholder",
+      "priority": "P0"
+    },
+    {
+      "path": "assets/images/scenes/beach/bg_beach_dusk_full.jpg",
+      "type": "scene_background",
+      "status": "placeholder",
+      "priority": "P0"
+    },
+    {
+      "path": "assets/images/scenes/workshop/bg_workshop_full.jpg",
+      "type": "scene_background",
+      "status": "placeholder",
+      "priority": "P0"
+    },
+    {
+      "path": "assets/images/scenes/market/bg_market_full.jpg",
+      "type": "scene_background",
+      "status": "placeholder",
+      "priority": "P0"
+    },
+    {
+      "path": "assets/images/scenes/lion_teaser/bg_lion_dark.jpg",
+      "type": "scene_background",
+      "status": "placeholder",
+      "priority": "P0"
+    },
+    {
+      "path": "assets/images/characters/hero/char_hero_beach_idle.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/hero/char_hero_beach_read_letter.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/hero/char_hero_beach_reach_shell.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/artisan/char_artisan_back_working.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/artisan/char_artisan_turn_head.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/boss/char_boss_idle_busy.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/boss/char_boss_cut_duck.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/characters/boss/char_boss_give_photo.png",
+      "type": "character",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/props/shell/obj_shell_glowing_start.png",
+      "type": "prop",
+      "status": "placeholder",
+      "priority": "P0"
+    },
+    {
+      "path": "assets/images/props/workshop/obj_workshop_shell_hairpin_complete.png",
+      "type": "prop",
+      "status": "placeholder",
+      "priority": "P1"
+    },
+    {
+      "path": "assets/images/fx/steam/fx_market_steam_thick.png",
+      "type": "fx",
+      "status": "placeholder",
+      "priority": "P1"
+    }
+  ],
+  "v5RasterUpgrade": true,
+  "svgRemaining": 0
+}

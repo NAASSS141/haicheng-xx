@@ -1,0 +1,176 @@
+{
+  "version": "mvp-v16-text-polish",
+  "pathPolicy": "All runtime paths are relative for GitHub Pages subpath deployment. No /assets absolute path is used.",
+  "runtime": {
+    "entry": "index.html",
+    "script": "game.js",
+    "style": "styles.css",
+    "mobileInput": "pointerup",
+    "orientation": "landscape recommended with portrait hint"
+  },
+  "features": [
+    "preloader with progress",
+    "multi-layer scene rendering",
+    "cinematic queue with dialogue pause and resume",
+    "camera motions",
+    "overlay and fx layers",
+    "touch hotspot support",
+    "hotspot debug mode",
+    "developer inspection panel",
+    "GitHub Pages path check script",
+    "production asset replacement guide",
+    "missing asset scanner",
+    "asset naming checker",
+    "mobile touch target checker",
+    "release QA checklist",
+    "runtime QA panel with missing asset count"
+  ],
+  "scenes": [
+    "assets/images/scenes/start/bg_start_shell_scene.jpg",
+    "assets/images/scenes/beach/bg_beach_dusk_full.jpg",
+    "assets/images/scenes/workshop/bg_workshop_full.jpg",
+    "assets/images/scenes/market/bg_market_full.jpg",
+    "assets/images/scenes/lion_teaser/bg_lion_dark.jpg"
+  ],
+  "layerManifests": [
+    "assets/data/scene_layers_manifest.json"
+  ],
+  "licenseFiles": [
+    "assets/audio/licenses/audio_license_registry.csv",
+    "assets/audio/licenses/audio_license_notes.md"
+  ],
+  "notes": [
+    "Raster placeholder assets and lightweight SVG overlay layers are included so the prototype runs without external services.",
+    "Final production art should replace placeholder files while preserving paths or updating game.js references.",
+    "Audio is still stubbed. Add only CC0/Public Domain or clearly commercial-allowed royalty-free files and complete the license registry before release."
+  ],
+  "productionFiles": [
+    "assets/data/production_asset_status.json",
+    "assets/data/qa_manifest.json",
+    "qa/asset_replacement_log.csv",
+    "docs/ART_ASSET_REPLACEMENT_GUIDE.md",
+    "docs/IMAGE_GENERATION_BATCHES.md",
+    "docs/MOBILE_TOUCH_QA.md",
+    "docs/RELEASE_QA_CHECKLIST.md"
+  ],
+  "mvp_v10_cinematic_stills": [
+    "assets/images/cinematics/cin_start_walk.jpg",
+    "assets/images/cinematics/cin_shell_close.jpg",
+    "assets/images/cinematics/cin_shell_touch.jpg",
+    "assets/images/cinematics/cin_letter_read.jpg",
+    "assets/images/cinematics/cin_workshop_talk.jpg",
+    "assets/images/cinematics/cin_worktable_shells.jpg",
+    "assets/images/cinematics/cin_hairpin.jpg",
+    "assets/images/cinematics/cin_market_talk.jpg",
+    "assets/images/cinematics/cin_porridge_bowl.jpg",
+    "assets/images/cinematics/cin_lion_guardian.jpg"
+  ],
+  "mvp_v11_cinematic_stills": [
+    "assets/images/cinematics/cin_hairpin.jpg",
+    "assets/images/cinematics/cin_letter_read.jpg",
+    "assets/images/cinematics/cin_lion_guardian.jpg",
+    "assets/images/cinematics/cin_market_talk.jpg",
+    "assets/images/cinematics/cin_porridge_bowl.jpg",
+    "assets/images/cinematics/cin_shell_close.jpg",
+    "assets/images/cinematics/cin_shell_touch.jpg",
+    "assets/images/cinematics/cin_start_walk.jpg",
+    "assets/images/cinematics/cin_v11_artisan_face_close.jpg",
+    "assets/images/cinematics/cin_v11_boss_close.jpg",
+    "assets/images/cinematics/cin_v11_drum_silhouette.jpg",
+    "assets/images/cinematics/cin_v11_final_guardian_close.jpg",
+    "assets/images/cinematics/cin_v11_hairpin_macro_gold.jpg",
+    "assets/images/cinematics/cin_v11_hairpin_table_wide.jpg",
+    "assets/images/cinematics/cin_v11_hand_shell_close.jpg",
+    "assets/images/cinematics/cin_v11_letter_face_wind.jpg",
+    "assets/images/cinematics/cin_v11_letter_hand_close.jpg",
+    "assets/images/cinematics/cin_v11_lion_eye_macro.jpg",
+    "assets/images/cinematics/cin_v11_market_lantern_steam.jpg",
+    "assets/images/cinematics/cin_v11_porridge_macro_steam.jpg",
+    "assets/images/cinematics/cin_v11_red_shadow_full.jpg",
+    "assets/images/cinematics/cin_v11_shell_fragments_close.jpg",
+    "assets/images/cinematics/cin_v11_shell_macro_light.jpg",
+    "assets/images/cinematics/cin_v11_spoon_insert.jpg",
+    "assets/images/cinematics/cin_v11_start_feet_tide.jpg",
+    "assets/images/cinematics/cin_v11_start_skyline_close.jpg",
+    "assets/images/cinematics/cin_v11_tools_insert.jpg",
+    "assets/images/cinematics/cin_v11_workshop_two_shot.jpg",
+    "assets/images/cinematics/cin_workshop_talk.jpg",
+    "assets/images/cinematics/cin_worktable_shells.jpg",
+    "assets/images/cinematics/v11_cinematic_contact_sheet.jpg"
+  ],
+  "mvp_v11_summary": {
+    "total_cinematic_jpg": 31,
+    "derived_closeups": 20,
+    "contact_sheet": "assets/images/cinematics/v11_cinematic_contact_sheet.jpg",
+    "runtime_policy": "raster-only images, relative paths for GitHub Pages"
+  },
+  "mvp_v12_portraits": [
+    "assets/images/portraits/portrait_artisan.jpg",
+    "assets/images/portraits/portrait_boss.jpg",
+    "assets/images/portraits/portrait_contact_sheet.jpg",
+    "assets/images/portraits/portrait_grandma_memory.jpg",
+    "assets/images/portraits/portrait_hero.jpg",
+    "assets/images/portraits/portrait_lion_eye.jpg",
+    "assets/images/portraits/portrait_narrator_sea.jpg"
+  ],
+  "mvp_v12_summary": {
+    "portrait_jpg": 7,
+    "dialogue_layer": "visual novel portrait + typewriter",
+    "runtime_policy": "raster-only images, relative paths for GitHub Pages"
+  },
+  "mvp_v13_ui_feedback_assets": [
+    "assets/images/ui/chapter_beach.jpg",
+    "assets/images/ui/chapter_lion.jpg",
+    "assets/images/ui/chapter_market.jpg",
+    "assets/images/ui/chapter_workshop.jpg",
+    "assets/images/ui/puzzle_success_burst.png",
+    "assets/images/ui/tap_ripple.png",
+    "assets/images/ui/ui_dialogue_box_pearl_dark.png"
+  ],
+  "mvp_v13_summary": {
+    "chapter_cards": 4,
+    "tap_ripple": "assets/images/ui/tap_ripple.png",
+    "puzzle_success": "assets/images/ui/puzzle_success_burst.png",
+    "runtime_policy": "raster-only images, relative paths for GitHub Pages"
+  },
+  "mvp_v14_release_polish": {
+    "gallery": true,
+    "credits_panel": true,
+    "ending_actions": true,
+    "image_only_preload": true,
+    "keyboard_gallery_shortcut": "G"
+  },
+  "mvp_v15_immersive_fx": [
+    "assets/images/fx/v15/cinematic_vignette.png",
+    "assets/images/fx/v15/film_grain_overlay.png",
+    "assets/images/fx/v15/light_leak_warm.png",
+    "assets/images/fx/v15/market_bokeh_lights.png",
+    "assets/images/fx/v15/sea_wind_streaks.png"
+  ],
+  "mvp_v15_summary": {
+    "immersive_toggle": true,
+    "keyboard_shortcut": "V",
+    "fx_assets": 5,
+    "reduced_motion_css": true,
+    "runtime_policy": "raster-only images, relative paths for GitHub Pages"
+  },
+  "mvp_v16_quality_pass": {
+    "compact_control_dock": true,
+    "scene_chip": true,
+    "parallax": true,
+    "scene_fade": true,
+    "audio_crossfade": true,
+    "vibration_hooks": true,
+    "runtime_policy": "raster-only images, relative paths for GitHub Pages"
+  },
+  "mvp_v16_plain_correction": {
+    "removed_scene_emotional_copy": true,
+    "scene_chip_style": "neutral task/location labels",
+    "reason": "avoid forcing emotion through slogan-like UI text"
+  },
+  "mvp_v16_text_polish": {
+    "market_objective": "饮一碗热粥",
+    "removed_decorative_emotional_lines": true,
+    "style_rule": "prefer concrete action, place, object, and character behavior over slogan-like emotion"
+  }
+}

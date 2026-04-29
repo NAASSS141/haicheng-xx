@@ -1,0 +1,29 @@
+{
+  "version": "mvp-v16-text-polish",
+  "githubPages": {
+    "relativePathsOnly": true,
+    "noServerRouting": true,
+    "entry": "index.html",
+    "script": "./game.js",
+    "style": "./styles.css"
+  },
+  "mobile": {
+    "inputEvent": "pointerup",
+    "touchAction": "manipulation",
+    "orientation": "landscape recommended, portrait hint included",
+    "minimumHotspotPercentRecommendation": 8
+  },
+  "runtimePanels": {
+    "hotspotDebug": "Click 热区 or press H",
+    "qaPanel": "Click QA or press I"
+  },
+  "requiredChecks": [
+    "node --check game.js",
+    "node tools/check-github-pages.mjs",
+    "node tools/check-assets.mjs",
+    "node tools/check-naming.mjs",
+    "node tools/check-touch-targets.mjs"
+  ],
+  "v5RasterUpgrade": true,
+  "svgRemaining": 0
+}

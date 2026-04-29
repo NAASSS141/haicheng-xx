@@ -1,0 +1,34 @@
+{
+  "version": "mvp-v16-text-polish",
+  "description": "Scene layer manifest for replacing placeholder layers with final generated art.",
+  "scenes": {
+    "start": [
+      { "id": "wave", "path": "assets/images/fx/wave/fx_start_wave_foam.png", "role": "foreground wave foam" },
+      { "id": "glow", "path": "assets/images/fx/light/fx_shell_pearl_glow.png", "role": "shell glow overlay" },
+      { "id": "shell", "path": "assets/images/props/shell/obj_shell_glowing_start.png", "role": "interactive shell object" }
+    ],
+    "beach": [
+      { "id": "sea", "path": "assets/images/scenes/beach/layers/fx_beach_sea_shimmer.png", "role": "sea shimmer overlay" },
+      { "id": "grass", "path": "assets/images/scenes/beach/layers/fg_beach_grass_silhouette.png", "role": "foreground grass silhouette" },
+      { "id": "foot", "path": "assets/images/scenes/beach/layers/obj_beach_footprints_overlay.png", "role": "footprint clue overlay" },
+      { "id": "shell", "path": "assets/images/props/shell/obj_shell_glowing_start.png", "role": "main clue object" }
+    ],
+    "workshop": [
+      { "id": "beam", "path": "assets/images/scenes/workshop/layers/fx_workshop_window_beam.png", "role": "window light beam" },
+      { "id": "dust", "path": "assets/images/scenes/workshop/layers/fx_workshop_dust_light.png", "role": "dust and warm light overlay" },
+      { "id": "curtain", "path": "assets/images/scenes/workshop/layers/fg_workshop_shell_curtain_overlay.png", "role": "foreground shell curtain" }
+    ],
+    "market": [
+      { "id": "warm", "path": "assets/images/scenes/market/layers/fx_market_warm_lights.png", "role": "warm light wash" },
+      { "id": "steamA", "path": "assets/images/fx/steam/fx_market_steam_thick.png", "role": "main steam overlay" },
+      { "id": "steamB", "path": "assets/images/scenes/market/layers/fx_market_extra_steam.png", "role": "secondary steam overlay" },
+      { "id": "redSilkFar", "path": "assets/images/scenes/market/layers/obj_market_red_silk_far.png", "role": "lion chapter foreshadow" }
+    ],
+    "lion": [
+      { "id": "redShadow", "path": "assets/images/scenes/lion_teaser/layers/bg_lion_red_shadow.png", "role": "red shadow wash" },
+      { "id": "eyeClosed", "path": "assets/images/scenes/lion_teaser/obj_lion_eye_closed.png", "role": "closed lion eye" },
+      { "id": "eyeAura", "path": "assets/images/scenes/lion_teaser/layers/fx_lion_eye_aura.png", "role": "eye glow aura" },
+      { "id": "eyeOpen", "path": "assets/images/scenes/lion_teaser/obj_lion_eye_open.png", "role": "opened lion eye" }
+    ]
+  }
+}
