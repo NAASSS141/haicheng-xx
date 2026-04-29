@@ -1,0 +1,11 @@
+asset_path,asset_type,current_status,replacement_priority,replacement_notes,source_or_prompt,checked_by,checked_date
+assets/images/scenes/start/bg_start_shell_scene.jpg,scene_background,placeholder,P0,replace with final title shell scene,,,
+assets/images/scenes/beach/bg_beach_dusk_full.jpg,scene_background,placeholder,P0,replace with final beach scene,,,
+assets/images/scenes/workshop/bg_workshop_full.jpg,scene_background,placeholder,P0,replace with final workshop scene,,,
+assets/images/scenes/market/bg_market_full.jpg,scene_background,placeholder,P0,replace with final night porridge street,,,
+assets/images/scenes/lion_teaser/bg_lion_dark.jpg,scene_background,placeholder,P0,replace with final lion teaser scene,,,
+assets/images/characters/hero/char_hero_beach_idle.png,character,placeholder,P1,replace with final protagonist idle,,,
+assets/images/characters/artisan/char_artisan_back_working.png,character,placeholder,P1,replace with final artisan back working,,,
+assets/images/characters/boss/char_boss_idle_busy.png,character,placeholder,P1,replace with final boss idle,,,
+assets/images/props/shell/obj_shell_glowing_start.png,prop,placeholder,P0,replace with final glowing shell,,,
+assets/images/fx/steam/fx_market_steam_thick.png,fx,placeholder,P1,replace with final steam overlay,,,
